@@ -1,0 +1,63 @@
+# Miscellaneous
+*.class
+*.log
+*.pyc
+*.swp
+.DS_Store
+.atom/
+.build/
+.buildlog/
+.history
+.svn/
+.swiftpm/
+migrate_working_dir/
+
+# IntelliJ related
+*.iml
+*.ipr
+*.iws
+.idea/
+
+# The .vscode folder contains launch configuration and tasks you configure in
+# VS Code which you may wish to be included in version control, so this line
+# is commented out by default.
+#.vscode/
+
+# Flutter/Dart/Pub related
+**/doc/api/
+**/ios/Flutter/.last_build_id
+.dart_tool/
+.flutter-plugins-dependencies
+.pub-cache/
+.pub/
+/build/
+/coverage/
+
+# Symbolication related
+app.*.symbols
+
+# Obfuscation related
+app.*.map.json
+
+# Android Studio will place build artifacts here
+/android/app/debug
+/android/app/profile
+/android/app/release
+
+# Personal scratch/analysis/output files (not needed in repo)
+analysis.txt
+analyze_out.txt
+analyze_output.txt
+progress_screen.txt
+tree_output.txt
+test_output.txt
+gen_tree.py
+flutter_*.log
+
+# Firebase sensitive config — DO NOT push real keys to a public repo
+# Share these files with teammates privately (WhatsApp/email/private repo)
+lib/firebase_options.dart
+android/app/google-services.json
+
+# Documentation folder (LaTeX thesis/reports — not needed in repo)
+/documentation/
